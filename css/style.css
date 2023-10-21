@@ -525,6 +525,36 @@ section {
   margin-left: -5rem;
 }
 
+.enquirytab{
+  position: fixed;
+  z-index: 5;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -25rem; 
+  transition: right 0.9s;
+ 
+}
+.enquirytab:hover {
+  right: 0;
+}
+.enquirytab ul li {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+}
+.enquirytab .firstUl{
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem 2rem;
+}
+.enquirytab .secondUl{
+  background: #ffffff;
+  padding: 1rem 2rem;
+}
+
+
+
+
 /*************************************responsive website layout start  ***************************************/
 
 
