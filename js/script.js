@@ -105,7 +105,7 @@ $('.third').owlCarousel({
   '<i class="fa fa-solid fa-arrow-right"></i>'
   ],
   dots:false,
-  autoplay:true,
+  // autoplay:true,
   autoplayTimeout: 1500,
   smartSpeed: 1000, 
   responsive:{

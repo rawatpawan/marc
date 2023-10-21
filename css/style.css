@@ -480,6 +480,9 @@ section {
 .belowheader{
   z-index: 2;
 }
+.marginleftclass{
+  margin-left: -5rem;
+}
 
 /*************************************responsive website layout start  ***************************************/
 
@@ -533,17 +536,81 @@ section {
       .innerDivText{
         position: relative;
       }
-      .box {
+      .box 
+      {
               width: 100%;
               margin: 1%;
-          }
+      }
+      #slider1{
+        margin-top: 0px;
+      }
+      .marginleftclass{
+        margin-left: 0px ;
+      }
+      .section1 p{
+        width: auto;
+      }
+      .section1 .main-heading{
+        width: auto;
+      }
+      .texDIv div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+      }
+      .texDIv div p{
+        padding: 3rem;
+      }
+      .innerDivText img{
+        height: 50%;
+      }
+      .clickbtn{
+        display: flex;
+        align-items: center;
+      }
+      .section1 .col-md-7 {
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+      }
+      .bg-col1{
+        background-size: cover;
+      }
+      .bg-col2{
+        background-size: cover;
+      }
+      .bg-col3{
+        background-size: cover;
+      }
+      .third .owl-item{
+        margin: 0px 7rem;
+      }
+      .middlesmartprduct {
+        width: 90%;
+      }
+      .footerheader .navbar ul {
+        display: block;
+      }
+      .footerheader .websiteLogo {
+          margin-top: 0;
+      }
+      .footerborder {
+        width: 90%;
+        border-right:0px;
+        border-bottom: 1px solid #656565;
+        height: 100%;
+      }
+
+
 }
 
  /* Tablets in portrait mode / */
 @media (min-width: 768px) and (max-width: 1023px) {
   
       html {
-        font-size: 50%;
+        font-size: 53%;
       }
       .desktopMenu{
         display: none;
@@ -575,9 +642,27 @@ section {
         position: relative;
       }
        .box {
-                width: 100%;
-                margin: 1%;
-            }
+            width: 100%;
+            margin: 1%;
+        }
+        .bg-col1{
+          background-size: cover;
+        }
+        .bg-col2{
+          background-size: cover;
+        }
+        .bg-col3{
+          background-size: cover;
+        }
+        .commcol{
+          height: 76.615rem;
+        }
+        .middlesmartprduct {
+          width: 80%;
+        }
+        .innerDivText img {
+          height: 50%;
+        }
 }
 
 /* / Tablets in landscape mode and small desktops / */
@@ -620,6 +705,13 @@ section {
       display: none;
     }
 
-    
+    #footer .col-md-2 {
+      width: 18%;
+    }
+    #footer .row {
+      display: flex;
+      justify-content: center;
+      max-width: 1728px ;
+    }
 
 }
